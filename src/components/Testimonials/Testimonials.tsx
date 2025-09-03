@@ -51,7 +51,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-12 px-4 bg-gray-50 rounded-2xl mb-10">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5]">
           What Our Customers Say
@@ -62,10 +62,10 @@ const Testimonials = () => {
       </div>
 
       <Carousel opts={{ align: "center", loop: true }} className="w-full max-w-6xl mx-auto">
-        <CarouselContent className="flex gap-6">
+        <CarouselContent className="flex gap-1 pb-1">
           {testimonials.map((t, i) => (
             <CarouselItem key={i} className="basis-1/1 sm:basis-1/2 md:basis-1/3">
-              <Card className="bg-white/30 backdrop-blur-md shadow-lg border border-white/20 rounded-xl p-6 flex flex-col h-full">
+              <Card className="bg-white shadow-sm border border-white/20 rounded-xl p-6 flex flex-col h-full">
                 <div className="flex items-start gap-4 mb-4">
                   <img
                     src={t.avatar}

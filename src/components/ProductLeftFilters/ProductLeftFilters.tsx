@@ -26,7 +26,7 @@ export default function ProductLeftFilters() {
     <aside className="w-full md:w-64 bg-white/50 backdrop-blur-md shadow-md rounded-xl pb-5 border border-gray-200">
       <div className=" mb-4 border-b border-gray-100 px-5 py-2 flex justify-between items-center">
         <h3 className="text-lg font-bold ">Filters</h3>
-        <MdFilterAltOff/>
+        <MdFilterAltOff className=""/>
       </div>
 
       {/* Categories */}

@@ -36,9 +36,9 @@ const FeaturedCategories = () => {
           {categories.map((category, index) => (
             <CarouselItem
               key={index}
-              className="md:basis-1/4 lg:basis-1/5 sm:basis-1/3"
+              className="md:basis-1/4 lg:basis-1/5 sm:basis-1/3 p-2"
             >
-              <Card className="hover:shadow-lg transition-all duration-300 cursor-pointer border border-gray-200">
+              <Card className="hover:shadow-md transition-all duration-300 cursor-pointer border border-gray-200">
                 <CardContent className="flex flex-col items-center justify-center px-4 py-2">
                   <img
                     src={category.image}

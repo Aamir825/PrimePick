@@ -56,10 +56,10 @@ const BestSellers = () => {
         </p>
       </div>
 
-      <Carousel opts={{ align: "start", loop: true }} className="w-full max-w-6xl mx-auto">
+      <Carousel opts={{ align: "start", loop: true }} className="w-full">
         <CarouselContent className="">
           {products.map((product, i) => (
-            <CarouselItem key={i} className="md:basis-1/4 lg:basis-1/4 sm:basis-1/3">
+            <CarouselItem key={i} className="md:basis-1/3 lg:basis-1/5 sm:basis-1/3">
               <Card className="hover:shadow-lg transition-all duration-300 border border-gray-200 bg-gradient-to-br from-[#041107] via-[#0e5718] to-[#031406]">
                 {/* Product Card */}
                 <CardContent className="p-4">

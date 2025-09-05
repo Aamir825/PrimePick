@@ -18,28 +18,28 @@ const products = [
     oldPrice: 179
   },
   {
-    id: "1",
+    id: "3",
     name: "Wireless Headphones",
     image: "https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg",
     price: 99,
     oldPrice: 129
   },
   {
-    id: "2",
+    id: "4",
     name: "Smart Watch",
     image: "https://cdn.pixabay.com/photo/2018/01/14/00/05/makeup-3081015_1280.jpg",
     price: 149,
     oldPrice: 179
   },
   {
-    id: "1",
+    id: "5",
     name: "Wireless Headphones",
     image: "https://cdn.pixabay.com/photo/2021/06/04/06/54/racket-6308994_1280.jpg",
     price: 99,
     oldPrice: 129
   },
   {
-    id: "2",
+    id: "6",
     name: "Smart Watch",
     image: "https://cdn.pixabay.com/photo/2015/08/14/19/41/minion-888797_1280.jpg",
     price: 149,
@@ -61,7 +61,7 @@ const Products = () => {
       {/* Right Products Grid */}    
       <div className=" w-full">  
         <ProductTopFilters/>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 w-full">
         {products.map((product) => (
           <ProductCard
             key={product.id}

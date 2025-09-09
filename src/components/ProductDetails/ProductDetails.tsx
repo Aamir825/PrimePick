@@ -17,7 +17,7 @@ const ProductDetails = () => {
             <img
               src="https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg"
               alt=""
-              className="rounded-lg w-full h-[400px] object-cover"
+              className="rounded-lg w-full h-[320px] object-cover"
             />
           </div>
 

@@ -4,6 +4,7 @@ import Layout from './components/Layout/Layout'
 import Home from './pages/Home/Home'
 import Products from './pages/Products/Products'
 import ProductDetail from './pages/ProductDetail/ProductDetail'
+import About from './pages/About/About'
 
 function App() {
 
@@ -23,6 +24,10 @@ function App() {
         {
           path: "products/:id",
           element: <ProductDetail/>
+        },
+        {
+          path: "about",
+          element: <About/>
         }
       ]
     }

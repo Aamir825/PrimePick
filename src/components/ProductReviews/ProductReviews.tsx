@@ -85,7 +85,7 @@ const ProductReview:React.FC<ProductReviewSectionProps> = ({ initialReviews = []
           placeholder="Your name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="w-full border border-gray-300 rounded-lg p-2 mb-3 focus:ring focus:ring-green-200"
+          className="w-full border border-gray-200 rounded-lg px-2 py-3 mb-3 focus:ring focus:ring-green-200"
         />
 
         {/* Rating */}
@@ -106,12 +106,12 @@ const ProductReview:React.FC<ProductReviewSectionProps> = ({ initialReviews = []
           placeholder="Write your review..."
           value={comment}
           onChange={(e) => setComment(e.target.value)}
-          className="w-full border border-gray-300 rounded-lg p-2 mb-3 h-24 resize-none focus:ring focus:ring-green-200"
+          className="w-full border border-gray-200 rounded-lg p-2 mb-3 h-24 resize-none focus:ring focus:ring-green-200"
         ></textarea>
 
         <button
           type="submit"
-          className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+          className="px-6 py-3 bg-gray-200 text-black rounded-md hover:bg-gray-300"
         >
           Submit Review
         </button>

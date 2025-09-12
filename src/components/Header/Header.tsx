@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         <div className=" flex items-center gap-2">
           <button className=" px-8 py-2 rounded-md bg-white shadow-sm">Login</button>
-          <Link to="" className=" relative p-2 rounded-full border border-[#f0f0f0] bg-amber-50 text-[#505050] shadow-sm">
+          <Link to="/cart" className=" relative p-2 rounded-full border border-[#f0f0f0] bg-amber-50 text-[#505050] shadow-sm">
             <LiaShoppingCartSolid size={24} />
             <div className=" absolute text-green-600 bg-white shadow-md rounded-full px-2 py-0.5 -top-3 left-2 text-[10px] ">3</div>
           </Link>

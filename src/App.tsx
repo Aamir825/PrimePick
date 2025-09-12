@@ -5,6 +5,8 @@ import Home from './pages/Home/Home'
 import Products from './pages/Products/Products'
 import ProductDetail from './pages/ProductDetail/ProductDetail'
 import About from './pages/About/About'
+import Contactus from './pages/Contactus/Contactus'
+import Cart from './components/Cart/Cart'
 
 function App() {
 
@@ -26,8 +28,16 @@ function App() {
           element: <ProductDetail/>
         },
         {
+          path: "contact",
+          element: <Contactus/>
+        },
+        {
           path: "about",
           element: <About/>
+        },
+        {
+          path: "cart",
+          element: <Cart/>
         }
       ]
     }

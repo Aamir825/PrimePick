@@ -14,7 +14,7 @@ const About = () => {
         </p>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Feature 1 */}
           <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition">
             <div className="text-green-600 text-4xl mb-4">🚚</div>

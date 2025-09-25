@@ -11,11 +11,11 @@ const Header = () => {
             <IoLogoXbox size={36} />
           </div>
           <div>
-            <ul className=" flex gap-3">
-              <li><NavLink to="/" className={({ isActive }) => ` text-xs ${isActive ? " underline" : ""}`}>Home</NavLink></li>
-              <li><NavLink to="/products" className={({ isActive }) => ` text-xs ${isActive ? " underline" : ""}`}>Products</NavLink></li>
-              <li><NavLink to="/contact" className={({ isActive }) => ` text-xs ${isActive ? " underline" : ""}`}>Contact</NavLink></li>
-              <li><NavLink to="/about" className={({ isActive }) => ` text-xs ${isActive ? " underline" : ""}`}>About</NavLink></li>
+            <ul className=" flex gap-4 menus">
+              <li><NavLink to="/" className={({ isActive }) => ` text-sm ${isActive ? " active-menus" : ""}`}>Home</NavLink></li>
+              <li><NavLink to="/products" className={({ isActive }) => ` text-sm ${isActive ? " active-menus" : ""}`}>Products</NavLink></li>
+              <li><NavLink to="/contact" className={({ isActive }) => ` text-sm ${isActive ? " active-menus" : ""}`}>Contact</NavLink></li>
+              <li><NavLink to="/about" className={({ isActive }) => ` text-sm ${isActive ? " active-menus" : ""}`}>About</NavLink></li>
             </ul>
           </div>
         </div>

@@ -50,13 +50,13 @@ export default function ProductCard({ id, name, image, price, oldPrice, onAddToC
 
         {/* Add to Cart & Buy Now Button */}
         <div className=" w-full flex gap-1">
-        <Link to={`/products/${id}`}><Button className=" flex-1 rounded-md h-10 bg-transparent border border-gray-200 hover:bg-[#f5f5f5] cursor-pointer text-black">
+        <Link to={`/products/${id}`}><Button className=" flex-1 rounded-md h-10 bg-transparent border border-gray-200 hover:bg-[#f5f5f5] cursor-pointer text-black text-xs">
           Buy Now
           <LiaShoppingCartSolid/>
         </Button></Link>
         <Button
           onClick={() => onAddToCart(id)}
-          className=" flex-1 rounded-md h-10 bg-gradient-to-br from-[#041107] via-[#0e5718] to-[#031406] hover:bg-green-700 cursor-pointer text-white"
+          className=" flex-1 rounded-md h-10 bg-gradient-to-br from-[#041107] via-[#0e5718] to-[#031406] hover:bg-green-700 cursor-pointer text-white text-xs"
         >
           Add to Cart
           <LiaShoppingCartSolid/>

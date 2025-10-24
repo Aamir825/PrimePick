@@ -32,7 +32,7 @@ const FeaturedCategories = () => {
         opts={{ align: "start", loop: true }}
         className="w-full max-w-6xl mx-auto"
       >
-        <CarouselContent>
+        <CarouselContent className="pl-4">
           {categories.map((category, index) => (
             <CarouselItem
               key={index}
